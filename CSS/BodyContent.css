@@ -34,6 +34,11 @@ h2 {
     font-family: 'Dosis', sans-serif;
 }
 
+h4{
+    font-size: 25px;
+    font-family: 'Dosis', sans-serif;
+}
+
 p {
     line-height: 30px;
     font-size: 15px;
@@ -112,6 +117,9 @@ p {
     h2{
         font-size: 35px;
     }
+    h4{
+        font-size: 30px;
+    }
 }
 
 @media screen and (min-width: 1024px) 
@@ -121,5 +129,8 @@ p {
     }
     h2{
         font-size: 40px;
+    }
+    h4{
+        font-size: 30px;
     }
 }
