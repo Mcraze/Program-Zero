@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200;600&display=swap');
+
+* {
+    margin: 0;
+    font-family: verdana;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #FBFEF9;
+}
+
+main {
+    flex: 1;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 40px;
+    margin-bottom: 30px;
+    font-family: 'Dosis', sans-serif;
+    letter-spacing: 5px;
+}
+
+h2 {
+    font-size: 25px;
+    font-family: 'Dosis', sans-serif;
+}
+
+p {
+    line-height: 30px;
+    font-size: 15px;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+}
+
+.flex-container div {
+    width: 230px;
+    height: auto;
+    margin: 10px;
+    text-align: center;
+    font-family: verdana;
+    font-size: 17px;
+    padding: 30px 10px;
+}
+
+.flex-container a {
+    color: #FBFEF9;
+    text-align: center;
+    padding: 10px 15px;
+    text-decoration: none;
+    font-size: 15px;
+    border-radius: 15px;
+    background-color: #F39237;
+    transition: all 0.2s ease;
+}
+
+.flex-container a:hover {
+    background-color: #FBFEF9;
+    color: #373752;
+    border: 2px solid #F39237;
+}
+
+.links {
+    color: #FBFEF9;
+    text-align: center;
+    padding: 10px 15px;
+    font-size: 15px;
+    text-decoration: none;
+    border-radius: 15px;
+    background-color: #F39237;
+    transition: all 0.2s ease;
+    cursor: pointer;
+}
+
+.links:hover {
+    background-color: #FBFEF9;
+    color: #373752;
+    border: 2px solid #F39237;
+}
+
+::-webkit-scrollbar{
+    display: none;
+}
+
+.searchbar{
+    height: 30px;
+    width:300px;
+    font-size: 15px;
+    margin-bottom: 20px;
+    font-family: verdana;
+    border: 1px solid black;
+}
+
+@media screen and (min-width: 760px) 
+{
+    h1{
+        font-size: 50px;
+    }
+    h2{
+        font-size: 35px;
+    }
+}
+
+@media screen and (min-width: 1024px) 
+{
+    h1{
+        font-size: 70px;
+    }
+    h2{
+        font-size: 40px;
+    }
+}

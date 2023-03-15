@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Study Material</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="CSS/HeaderFooter.css" rel="stylesheet">
+    <link href="CSS/BodyContent.css" rel="stylesheet">
+    <link href="CSS/TextAnimations.css" rel="stylesheet">
+    <link href="CSS/BookContainer.css" rel="stylesheet">
+    <script src="https://cdn.lordicon.com/ritcuqlt.js"></script>
+</head>
+
+<body>
+    <header>
+        <div class="topnav" id="myTopnav">
+            <a class="logo" href="index.html">PROGRAM ZERO</a>
+            <a href="">ABOUT US</a>
+            <a class="active" href="StudyMaterial.html">STUDY MATERIAL</a>
+            <a href="">CHEAT SHEETS</a>
+            <a href="">CERTIFICATIONS</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+            </a>
+        </div>
+    </header>
+    <main>
+        <h1>FREE BOOKS AND STUDY MATERIALS</h1>
+        <h2>EVERYTHING TOTALLY FREE OF COST</h2>
+        <p style="margin-top: 30px;">
+            <input type="text" class="searchbar" id="search-bar" placeholder="Search Books">
+        </p>
+        <div class="book-container">
+            <div class="book" id="java">
+                <div class="bookimg">
+                    <img src="https://brandeps.com/logo-download/J/Java-logo-vector-01.svg" width="70%">
+                </div>
+                <p>
+                    <a href="www.google.com">CLICK HERE</a>
+                </p>
+            </div>
+            <div class="book" id="python">
+                <div class="bookimg">
+                    <img src="https://brandeps.com/icon-download/P/Python-icon-vector-04.svg" width="60%">
+                </div>
+                <p>
+                    <a href="www.google.com">CLICK HERE</a>
+                </p>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>Program Zero by Mitesh Mahesh Adelkar</p>
+        <p><a href=>CERTIFICATIONS</a> | <a href=>STUDY MATERIALS</a> | <a href=>TRENDING TECH</a> | <a href=>SELF
+                GUIDANCE</a></p>
+        <br>
+        <p>LET's CONNECT! <a href=>Click Here</a></p>
+    </footer>
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+                x.className += " responsive";
+            } else {
+                x.className = "topnav";
+            }
+        }
+        const searchBar = document.getElementById("search-bar");
+        const books = document.querySelectorAll(".book");
+
+        searchBar.addEventListener("input", () => {
+            const searchTerm = searchBar.value.toLowerCase();
+
+            books.forEach(book => {
+                if (book.id.includes(searchTerm)) {
+                    book.style.display = "block";
+                } else {
+                    book.style.display = "none";
+                }
+            });
+        });
+    </script>
+</body>
+
+</html>
