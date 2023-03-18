@@ -12,6 +12,7 @@
     <link href="CSS/TextAnimations.css" rel="stylesheet">
     <link href="CSS/BookContainer.css" rel="stylesheet">
     <script src="https://cdn.lordicon.com/ritcuqlt.js"></script>
+    <script src="JavaScript/Navbar.js"></script>
 </head>
 
 <body>
@@ -188,30 +189,7 @@
         <br>
         <p>LET's CONNECT! <a href=>Click Here</a></p>
     </footer>
-    <script>
-        function myFunction() {
-            var x = document.getElementById("myTopnav");
-            if (x.className === "topnav") {
-                x.className += " responsive";
-            } else {
-                x.className = "topnav";
-            }
-        }
-        const searchBar = document.getElementById("search-bar");
-        const books = document.querySelectorAll(".book");
-
-        searchBar.addEventListener("input", () => {
-            const searchTerm = searchBar.value.toLowerCase();
-
-            books.forEach(book => {
-                if (book.id.includes(searchTerm)) {
-                    book.style.display = "block";
-                } else {
-                    book.style.display = "none";
-                }
-            });
-        });
-    </script>
+    <script src="JavaScript/Searchbar.js"></script>
 </body>
 
 </html>
