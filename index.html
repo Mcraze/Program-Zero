@@ -11,6 +11,7 @@
     <link href="CSS/BodyContent.css" rel="stylesheet">
     <link href="CSS/TextAnimations.css" rel="stylesheet">
     <script src="https://cdn.lordicon.com/ritcuqlt.js"></script>
+    <script src="JavaScript/Navbar.js"></script>
 </head>
 
 <body>
@@ -196,37 +197,7 @@
         <br>
         <p>LET's CONNECT! <a href=>Click Here</a></p>
     </footer>
-
-    <script>
-        const text = document.querySelector(".text");
-        var change = document.getElementById("change");
-
-        window.addEventListener("scroll", () => {
-            let offset = text.offsetTop;
-            let windowHeight = window.innerHeight;
-            if (window.pageYOffset > offset - windowHeight + 250) {
-                text.classList.add("glow");
-                change.textContent = "ITS";
-            }
-            if (window.pageYOffset < offset - windowHeight) {
-                text.classList.remove("glow");
-                change.textContent = "IM";
-            }
-            if (window.pageYOffset > offset - windowHeight + 1000) {
-                text.classList.remove("glow");
-                change.textContent = "IM";
-            }
-        });
-
-        function myFunction() {
-            var x = document.getElementById("myTopnav");
-            if (x.className === "topnav") {
-                x.className += " responsive";
-            } else {
-                x.className = "topnav";
-            }
-        }
-    </script>
+    <script src="JavaScript/TextEffect.js"></script>
 </body>
 
 </html>
