@@ -29,7 +29,6 @@
 
 .topnav a.logo {
     color: #FBFEF9;
-    font-family: comic sans ms;
     -webkit-text-stroke: 0.5px #FBFEF9;
     float: left;
 }
@@ -94,6 +93,6 @@ footer p {
 
 @media screen and (min-width: 1024px) {
     footer p {
-        font-size: 12.5px;
+        font-size: 11.5px;
     }
 }
