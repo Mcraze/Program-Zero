@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cheat Sheets</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="CSS/HeaderFooter.css" rel="stylesheet">
+    <link href="CSS/BodyContent.css" rel="stylesheet">
+    <link href="CSS/TextAnimations.css" rel="stylesheet">
+    <link href="CSS/BookContainer.css" rel="stylesheet">
+    <script src="https://cdn.lordicon.com/ritcuqlt.js"></script>
+    <script src="JavaScript/Navbar.js"></script>
+
+    <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+    <script>
+        $(function () {
+            $("#header").load("HeaderText.html");
+            $("#footer").load("FooterText.html");
+        });
+    </script>
+</head>
+
+<body>
+    <header id="header">
+    </header>
+    <main>
+        <h1>PROGRAMMING CHEAT SHEETS</h1>
+        <h2>IMPORTANT CODE SNIPPETS AND RELATED STUFF</h2>
+        <p style="margin-top: 30px;">
+            <input type="text" class="searchbar" id="search-bar" placeholder="Search Cheet Sheets">
+        </p>
+        <div class="book-container">
+            <div class="book" id="python">
+                <div class="bookimg">
+                    <img src="https://brandeps.com/icon-download/P/Python-icon-vector-04.svg" width="55%">
+                </div>
+                <p>
+                    <a href="WorkInProgress.html">CLICK HERE</a>
+                </p>
+            </div>
+            <div class="book" id="react">
+                <div class="bookimg">
+                    <img src="https://brandeps.com/logo-download/R/React-logo-vector-01.svg" width="70%">
+                </div>
+                <p>
+                    <a href="WorkInProgress.html">CLICK HERE</a>
+                </p>
+            </div>
+            <div class="book" id="angular">
+                <div class="bookimg">
+                    <img src="https://brandeps.com/icon-download/A/Angular-icon-vector-04.svg" width="55%">
+                </div>
+                <p>
+                    <a href="WorkInProgress.html">CLICK HERE</a>
+                </p>
+            </div>
+            <div class="book" id="mongodb">
+                <div class="bookimg">
+                    <img src="https://brandeps.com/logo-download/M/MongoDB-logo-vector-01.svg" width="80%">
+                </div>
+                <p>
+                    <a href="www.google.com">CLICK HERE</a>
+                </p>
+            </div>
+            <div class="book" id="mysql">
+                <div class="bookimg">
+                    <img src="https://brandeps.com/logo-download/M/MySQL-logo-vector-01.svg" width="85%">
+                </div>
+                <p>
+                    <a href="www.google.com">CLICK HERE</a>
+                </p>
+            </div>
+        </div>
+    </main>
+    <footer id="footer">
+    </footer>
+    <script src="JavaScript/Searchbar.js"></script>
+</body>
+
+</html>
