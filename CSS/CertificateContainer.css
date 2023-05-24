@@ -1,0 +1,35 @@
+.cert-container{
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.cert-info{
+    height: auto;
+    width: 400px;
+    margin: 10px;
+    border: 1px solid black;
+    border-radius: 25px;
+}
+
+.cert-image{
+    margin: 10px;
+    
+}
+
+.cert-image img{
+    width: 80%;
+}
+
+.cert-details{
+    margin: 10px;
+    padding: 5px 20px;
+    text-align: justify;
+    border-radius: 25px;
+    background-color: #e1f1ff;
+}
+
+a{
+    text-decoration: none;
+}
