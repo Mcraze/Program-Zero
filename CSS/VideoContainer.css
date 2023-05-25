@@ -1,0 +1,19 @@
+.youtube-video-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+iframe{
+    width: 350px;
+    height: 200px;
+    margin: 10px;
+}
+
+@media screen and (min-width: 1024px) {
+    iframe{
+        width: 450px;
+        height: 250px;
+        margin: 10px;
+    }
+}
