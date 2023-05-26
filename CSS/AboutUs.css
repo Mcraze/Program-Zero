@@ -1,0 +1,16 @@
+text-color{
+    font-family: 'Dosis', sans-serif;
+}
+
+.profile{
+    border: 2px solid black;
+    border-radius: 25px;
+    margin: 10px;
+    height: 500px;
+    max-width: 450px;
+    text-align: center;
+}
+
+.profile > img{
+    width: 300px;
+}

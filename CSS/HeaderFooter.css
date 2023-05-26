@@ -42,7 +42,7 @@
     padding: 10px 15px;
 }
 
-@media screen and (max-width: 950px) {
+@media screen and (max-width: 1120px) {
     .topnav a:not(:first-child) {
         display: none;
     }
@@ -53,7 +53,7 @@
     }
 }
 
-@media screen and (max-width: 950px) {
+@media screen and (max-width: 1120px) {
     .topnav.responsive {
         position: relative;
     }
