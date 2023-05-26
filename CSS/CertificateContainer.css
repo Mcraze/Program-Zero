@@ -15,11 +15,10 @@
 
 .cert-image{
     margin: 10px;
-    
 }
 
 .cert-image img{
-    width: 80%;
+    width: 70%;
 }
 
 .cert-details{
@@ -32,4 +31,28 @@
 
 a{
     text-decoration: none;
+}
+
+li{
+    padding: 4px;
+}
+
+@media screen and (min-width: 760px) 
+{
+    .cert-info{
+        width: 90%;
+    }
+    .cert-image{
+        width: 400px;
+    }
+}
+
+@media screen and (min-width: 1024px) 
+{
+    .cert-info{
+        width: 90%;
+    }
+    .cert-image{
+        width: 400px;
+    }
 }
