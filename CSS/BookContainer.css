@@ -3,6 +3,7 @@
     flex-wrap: wrap;
     width: 100%;
     justify-content: center;
+    background-color: #e1f1ff;
 }
 
 .book {
@@ -14,6 +15,7 @@
     font-size: 17px;
     padding: 30px 10px;
     border: 1px solid black;
+    background-color: white;
 }
 
 .bookimg{
