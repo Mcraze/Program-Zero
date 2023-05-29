@@ -41,3 +41,22 @@
     color: #373752;
     border: 2px solid #F39237;
 }
+
+.website-list-container{
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.website-list-container div{
+    width: 200px;
+    border: 1px solid black;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.website-list-container img{
+    height: 25px;
+}
