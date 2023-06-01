@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="CSS/HeaderFooter.css" rel="stylesheet">
+    <link href="CSS/BodyContent.css" rel="stylesheet">
+    <link href="CSS/TextAnimations.css" rel="stylesheet">
+    <link href="CSS/BookContainer.css" rel="stylesheet">
+    <link href="CSS/LanguageContent.css" rel="stylesheet">
+    <script src="https://cdn.lordicon.com/ritcuqlt.js"></script>
+    <script src="JavaScript/Navbar.js"></script>
+
+    <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+    <script>
+        $(function () {
+            $("#header").load("HeaderText.html");
+            $("#footer").load("FooterText.html");
+        });
+    </script>
+</head>
+
+<body>
+    <header id="header">
+    </header>
+    <main>
+        <h1>CASCADING STYLE SHEETS</h1>
+        <h2>USED FOR STYLE, LAYOUT OF WEB PAGES</h2>
+        <div style="text-align: justify; margin: 20px; padding: 10px;">
+            <p>
+                CSS (Cascading Style Sheets) is a styling language used to describe the presentation and appearance of HTML elements on a web page. 
+                With CSS, you can control the colors, fonts, layouts, and other visual aspects of your website. 
+                It enables you to separate the content and structure of your web page from its design, making it easier to maintain and update. 
+                CSS offers a wide range of selectors, properties, and values to apply styles consistently across multiple web pages, resulting in a cohesive and professional-looking website design.
+                <br><br>
+                <p style="color: #bf1363;">Note: HTML and JavaScript is also usually learned along with CSS.</p>
+            </p>
+        </div>
+        <div style="background-color: #e1f1ff;">
+            <p style="color: #bf1363;">Download Section</p>
+            <h4>DOWNLOAD BOOKS FOR FREE</h4>
+            <div class="language-container" style="margin-top: 30px;">
+                <div>
+                    <p class="bookimg"><img src="https://cdn.pdfdrive.to/media/content/thumbnails/1c596a43-0c2e-4467-9a9b-ed7938642fec.webp"></p>
+                    <p>
+                        <a href="">DOWNLOAD</a>
+                    </p>
+                </div>
+                <div>
+                    <p class="bookimg"><img src="https://cdn.pdfdrive.to/media/content/thumbnails/81351c83-2792-4618-834e-c5bcefff196e.webp"></p>
+                    <p>
+                        <a href="">DOWNLOAD</a>
+                    </p>
+                </div>
+                <div>
+                    <p class="bookimg"><img src="https://cdn.pdfdrive.to/media/content/thumbnails/832a7118-9dd5-41e8-8c21-565a5e7381e6.webp"></p>
+                    <p>
+                        <a href="">DOWNLOAD</a>
+                    </p>
+                </div>
+                <div>
+                    <p class="bookimg"><img src="https://cdn.pdfdrive.to/media/content/thumbnails/731ab703-521c-4def-9fba-e97279417e16.webp"></p>
+                    <p>
+                        <a href="">DOWNLOAD</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <p style="color: #bf1363; background-color: #e1f1ff;"><br>More Books will be Added Soon<hr></p>
+        <div style="margin-top: 20px;">
+            <h4>WEBSITES FOR LEARNING CSS</h4>
+            <div class="website-list-container">
+                <a href="https://www.javatpoint.com/css-tutorial" target="_blank"><div><img src="https://www.javatpoint.com/images/logo/jtp_logo.png"></div></a>
+                <a href="https://www.w3schools.com/css/" target="_blank"><div><img src="https://upload.wikimedia.org/wikipedia/commons/3/3e/W3Schools_logo.png"></div></a>
+                <a href="https://www.tutorialspoint.com/css/index.htm" target="_blank"><div><img src="https://www.tutorialspoint.com/images/logo.png?v2"></div></a>
+                <a href="https://www.programiz.com/css" target="_blank"><div><img src="https://cdn.programiz.com/sites/tutorial2program/files/pc_logo.svg"></div></a>
+                <a href="https://www.geeksforgeeks.org/css/" target="_blank"><div><img src="https://media.geeksforgeeks.org/auth-dashboard-uploads/gfgFooterLogo.png"></div></a>
+            </div>
+        </div>
+    </main>
+    <footer id="footer">
+    </footer>
+</body>
+
+</html>
