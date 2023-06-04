@@ -1,0 +1,49 @@
+.trend-container{
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.trend-info{
+    height: auto;
+    width: 400px;
+    margin: 10px;
+    border: 1px solid black;
+}
+
+.trend-image{
+    margin: 10px;
+}
+
+.trend-image img{
+    width: 80%;
+}
+
+.trend-details{
+    margin: 10px;
+    padding: 5px 20px;
+    text-align: justify;
+    border-radius: 25px;
+    background-color: #e1f1ff;
+}
+
+@media screen and (min-width: 760px) 
+{
+    .trend-info{
+        width: 90%;
+    }
+    .trend-image{
+        width: 400px;
+    }
+}
+
+@media screen and (min-width: 1024px) 
+{
+    .trend-info{
+        width: 90%;
+    }
+    .trend-image{
+        width: 400px;
+    }
+}
